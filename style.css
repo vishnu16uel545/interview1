@@ -1,0 +1,215 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+
+}
+
+body
+{
+    width: 100%;
+
+
+}
+.page1
+{
+    width: 100%;
+   min-height:100vh;   
+    opacity: 85%;
+ 
+}
+.page1.menu
+{
+    position: relative;
+  
+}
+
+.menu nav
+{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.menu nav a
+{
+    text-decoration: none;
+    color: gray;
+  
+}
+
+.menu nav .logo h2
+ {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color:greenyellow;
+
+}
+.menu nav ul 
+{
+
+    width: 70%;
+    display: flex;
+    float: right;
+    justify-content: space-evenly;
+}
+.menu nav ul i{
+    font-size: 1.3em;
+}
+
+.menu nav ul li 
+{
+    list-style: none;
+}
+
+.menu nav a:hover
+{
+    color:greenyellow;
+}
+.but
+{
+    width: 70%;
+    height: 15%;
+    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 50px;
+    
+}
+.but #but1
+{
+    border-color: aliceblue;
+    border: 0px;
+    
+}
+.but button
+{
+    width: 30%;
+    height: 100%;
+    float : right;
+    border: 1px solid orange;
+    border-radius: 50px;
+    background-color: greenyellow;
+    color:white; 
+
+}
+
+.box
+{
+    position: absolute;
+    display: none;   
+    right: 20px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+}
+.box.burger1 {
+    width: 20px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: greenyellow;
+    margin: 3px;
+
+}
+.contant
+{
+    width: 100%;
+    height: 100%;
+    background:url(./hero-img.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contant .boot .con p
+{
+    margin-top: 100px;
+    color: orange;
+    font-size: 2em;
+}
+.contant .boot .con h1
+{
+    font-size:5em;
+    color: greenyellow;
+}
+
+.contant .boot 
+{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.page2
+{
+    height: 500px;
+    width: 100%;
+    background-color:whitesmoke;
+
+    display: flex;
+    justify-content: space-around;
+}
+.page2 .v1
+{
+    height: 250px;
+    width: 300px;
+    background-color:rgba(255,255,255, 0.8);
+    
+}
+.v2
+{
+    height: 250px;
+    width: 300px;
+    background-color:rgba(255,255,255, 0.8);
+    
+}
+.v3
+{
+    height: 250px;
+    width: 300px;
+    background-color:rgba(255,255,255, 0.8);
+    
+}
+.v4
+{
+    height: 250px;
+    width: 300px;
+    background-color:rgba(255,255,255, 0.8);
+    
+}
+.s1 
+{
+    height:150px;
+    width: 150px;
+    border-radius: 100px;
+    background-color: orange;
+    text-align: center;
+}
+.s2
+{
+    height:150px;
+    width: 150px;
+    border-radius: 100px;
+    background-color: orange;
+}
+.s3
+{
+    height:150px;
+    width: 150px;
+    border-radius: 100px;
+    background-color: orange;
+
+}
+.s4
+{
+    height:150px;
+    width: 150px;
+    border-radius: 100px;
+    background-color: orange;
+}
